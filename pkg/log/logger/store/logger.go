@@ -3,7 +3,7 @@ package store
 import (
 	"context"
 
-	"github.com/onexstack/onexstack/pkg/log"
+	"github.com/setcreed/onexstack/pkg/log"
 )
 
 // Logger is a logger that implements the Logger interface.

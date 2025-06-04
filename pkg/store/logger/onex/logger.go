@@ -1,7 +1,7 @@
 package onex
 
 import (
-	"github.com/onexstack/onexstack/pkg/log"
+	"github.com/setcreed/onexstack/pkg/log"
 )
 
 // onexLogger is a logger that implements the Logger interface.

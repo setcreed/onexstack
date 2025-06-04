@@ -1,17 +1,18 @@
-module github.com/onexstack/onexstack
+module github.com/setcreed/onexstack
 
-go 1.23.5
+go 1.24.0
 
 require (
 	github.com/BurntSushi/toml v1.4.0
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
-	github.com/blang/semver v2.2.0+incompatible
 	github.com/bradfitz/gomemcache v0.0.0-20230905024940-24af94b03874
 	github.com/casbin/casbin/v2 v2.103.0
 	github.com/casbin/gorm-adapter/v3 v3.32.0
 	github.com/fatih/color v1.18.0
 	github.com/fsnotify/fsnotify v1.8.0
 	github.com/gin-gonic/gin v1.10.0
+	github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20241219093211-5087366d2f90
+	github.com/go-kratos/kratos/contrib/registry/etcd/v2 v2.0.0-20241219093211-5087366d2f90
 	github.com/go-kratos/kratos/v2 v2.8.3
 	github.com/go-sql-driver/mysql v1.8.1
 	github.com/go-zookeeper/zk v1.0.4
@@ -28,7 +29,7 @@ require (
 	github.com/jinzhu/copier v0.4.0
 	github.com/kisielk/errcheck v1.8.0
 	github.com/nicksnyder/go-i18n/v2 v2.4.1
-	github.com/onsi/gomega v1.36.2
+	github.com/onexstack/onexstack v0.0.2
 	github.com/redis/go-redis/extra/rediscensus/v9 v9.7.0
 	github.com/redis/go-redis/v9 v9.7.0
 	github.com/robfig/cron/v3 v3.0.1
@@ -86,8 +87,6 @@ require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/glebarez/go-sqlite v1.20.3 // indirect
 	github.com/glebarez/sqlite v1.7.0 // indirect
-	github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20241219093211-5087366d2f90 // indirect
-	github.com/go-kratos/kratos/contrib/registry/etcd/v2 v2.0.0-20241219093211-5087366d2f90 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-playground/form/v4 v4.2.0 // indirect
@@ -99,11 +98,11 @@ require (
 	github.com/golang-sql/civil v0.0.0-20220223132316-b832511892a9 // indirect
 	github.com/golang-sql/sqlexp v0.1.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
+	github.com/google/pprof v0.0.0-20241210010833-40e02aabc2ad // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-hclog v1.5.0 // indirect
@@ -123,7 +122,6 @@ require (
 	github.com/klauspost/compress v1.17.9 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
-	github.com/lib/pq v1.10.9 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect

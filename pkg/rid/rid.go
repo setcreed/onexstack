@@ -7,7 +7,7 @@
 package rid
 
 import (
-	"github.com/onexstack/onexstack/pkg/id"
+	"github.com/setcreed/onexstack/pkg/id"
 )
 
 const (

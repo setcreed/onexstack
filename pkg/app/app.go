@@ -20,9 +20,9 @@ import (
 	cliflag "k8s.io/component-base/cli/flag"
 	"k8s.io/component-base/term"
 
-	"github.com/onexstack/onexstack/pkg/log"
-	genericoptions "github.com/onexstack/onexstack/pkg/options"
-	"github.com/onexstack/onexstack/pkg/version"
+	"github.com/setcreed/onexstack/pkg/log"
+	genericoptions "github.com/setcreed/onexstack/pkg/options"
+	"github.com/setcreed/onexstack/pkg/version"
 )
 
 // App is the main structure of a cli application.

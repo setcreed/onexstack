@@ -14,8 +14,8 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	goi18n "github.com/nicksnyder/go-i18n/v2/i18n"
 
-	"github.com/onexstack/onexstack/pkg/authn"
-	"github.com/onexstack/onexstack/pkg/i18n"
+	"github.com/setcreed/onexstack/pkg/authn"
+	"github.com/setcreed/onexstack/pkg/i18n"
 )
 
 const (
